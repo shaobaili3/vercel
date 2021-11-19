@@ -40,7 +40,3 @@ def add():
         value = "x and y should be numbers in valid JSON"
         status = 400
     return jsonify({"result": value}), status
-
-
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True, port=80)
